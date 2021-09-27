@@ -14,7 +14,7 @@
 
 .header {
   background-color: #f2f2f2;
-  position: relative;
+    position: relative;
     height: 100vh;
     min-height: 600px;
     height: 756px;
@@ -39,6 +39,7 @@ height: 32px;
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
+  z-index: 10;
   }
 
 .header__subtitle {
@@ -252,6 +253,7 @@ font-weight: normal;
   line-height: 1.15;
   font-weight: bold;
   color: #ffffff;
+  z-index: 10;
 }
 
 .section-subtitle_theme_dark {
@@ -296,6 +298,7 @@ font-weight: normal;
   right: -210px;
   width: 877px;
   height: 877px;
+  
 
 
 
